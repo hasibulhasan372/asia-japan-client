@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-con{
+  @apply max-w-[1200px] mx-auto;
+}
+.banner-img{
+  @apply text-xl;
+}
+.heading-color{
+  @apply text-[#011E40];
+}
+.main-color{
+  @apply bg-[#0092E0]
+}
+.btn-one{
+  @apply py-2 px-2 md:py-3 md:px-3 lg:py-[18px] lg:px-5 bg-white text-[#0092E0] rounded-[7px] border-[1px] border-[#0092E0] lg:text-[20px] xl:text-[22px] font-semibold;
+}
+.btn-two{
+  @apply py-2 px-2 md:py-3 md:px-3 lg:py-[18px] lg:px-5 text-white bg-[#0092E0] rounded-[7px] border-[1px] border-[#0092E0] lg:text-[20px] xl:text-[22px] font-semibold;
+}
