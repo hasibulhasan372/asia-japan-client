@@ -2,8 +2,7 @@ import useFeature from "../../../hooks/useFeature";
 
 
 const Features = () => {
-    const [features] = useFeature()
-    console.log(features)
+    const [features] = useFeature();
     return (
         <div className="my-con">
             <div className="">
