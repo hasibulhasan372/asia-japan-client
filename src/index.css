@@ -24,8 +24,17 @@
   @apply text-[#011E40] text-sm font-medium flex items-center gap-x-1 capitalize;
 }
 .popular-btn{
-  @apply lg:px-8 py-[9px] bg-[#0092E0] border-[#0092E0] text-white rounded-sm text-sm font-medium;
+  @apply  px-4 lg:px-6 py-[9px] bg-[#0092E0] border-[#0092E0] text-white rounded-sm text-sm ;
 }
 .popular-btn-2{
-  @apply lg:px-8 py-[9px] text-[#0092E0] border border-[#0092E0] bg-white rounded-sm text-sm font-medium;
+  @apply  px-4 lg:px-6 py-[9px] text-[#0092E0] border border-[#0092E0] bg-white rounded-sm text-sm ;
+}
+.subTitle{
+  @apply text-[28px] sm:text-[24px] md:text-[#011E40] md:text-[38px] font-semibold leading-[36px] sm:leading-[36px] md:leading-[45px] ;
+}
+.subTitle-para{
+  @apply  md:text-xl text-[#3B5779];
+}
+.fst-contact-btn{
+  @apply  px-4 lg:px-[30px] py-[6px] bg-[#0092E0] border-[#0092E0] text-white rounded-sm text-xl;
 }
